@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Placement Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <!--  SIDEBAR  -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <div class="logo-icon">P</div>
+            <div>
+                <h2>PlaceMate</h2>
+                <span>Placement Portal</span>
+            </div>
+        </div>
+
+        <nav class="sidebar-nav">
+
+            <a href="#" class="nav-item active">
+                <span>▦</span>
+                Dashboard
+            </a>
+
+            <a href="#" class="nav-item">
+                <span>💼</span>
+                Placement Drives
+            </a>
+
+            <a href="#" class="nav-item">
+                <span>🏢</span>
+                Companies
+            </a>
+
+            <a href="#" class="nav-item">
+                <span>📅</span>
+                Events
+            </a>
+
+            <a href="#" class="nav-item">
+                <span>👨‍🎓</span>
+                Students
+            </a>
+
+            <a href="#" class="nav-item">
+                <span>📊</span>
+                Reports
+            </a>
+
+        </nav>
+
+        <div class="sidebar-bottom">
+
+            <a href="#" class="nav-item">
+                <span>⚙</span>
+                Settings
+            </a>
+
+            <a href="#" class="nav-item logout">
+                <span>↪</span>
+                Logout
+            </a>
+
+        </div>
+
+    </aside>
+
+
+    <!--  MAIN CONTENT -->
+
+    <main class="main-content">
+
+        <!-- TOP NAVBAR -->
+
+        <header class="topbar">
+
+            <div class="mobile-menu">
+                ☰
+            </div>
+
+            <div class="page-heading">
+                <span>Overview</span>
+                <h1>Placement Dashboard</h1>
+            </div>
+
+            <div class="topbar-right">
+
+                <button class="notification-btn">
+                    🔔
+                    <span class="notification-dot"></span>
+                </button>
+
+                <div class="profile">
+
+                    <div class="profile-image">
+                        PK
+                    </div>
+
+                    <div class="profile-info">
+                        <strong>Purushottam Kumar</strong>
+                        <span>Student</span>
+                    </div>
+
+                    <span class="profile-arrow">⌄</span>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!--  COLLEGE HERO SECTION -->
+
+        <section class="college-hero">
+
+            <div class="hero-content">
+
+                <span class="hero-label">
+                    🎓 Campus Placement 2026
+                </span>
+
+                <h2>
+                    Welcome to your
+                    <span>Placement Hub</span>
+                </h2>
+
+                <p>
+                    Track placement opportunities, explore companies,
+                    register for drives and stay updated with upcoming
+                    campus recruitment activities.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button class="primary-btn">
+                        Explore Drives →
+                    </button>
+
+                    <button class="secondary-btn">
+                        View Companies
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!--  COLLEGE IMAGE SPACE -->
+
+            <div class="college-image-container">
+
+                <h3 class="college-name">
+                    Marwadi University
+                </h3>
+
+                <div class="college-image-placeholder">
+
+                    <img
+                        src="https://dfhe5ze0n4pxu.cloudfront.net/College/Image/Image-1769772266509.jpeg"
+                        alt="Marwadi University"
+                        class="college-image"
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+        
+
+        <!-- STATISTICS -->
+
+        <section class="stats-grid">
+
+            <div class="stat-card">
+
+                <div class="stat-icon blue">
+                    💼
+                </div>
+
+                <div class="stat-content">
+                    <span>Active Drives</span>
+                    <h2>18</h2>
+                    <p class="positive">
+                        ↑ 12% from last month
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon purple">
+                    🏢
+                </div>
+
+                <div class="stat-content">
+                    <span>Recruiting Companies</span>
+                    <h2>42</h2>
+                    <p class="positive">
+                        ↑ 8 new companies
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon green">
+                    👨‍🎓
+                </div>
+
+                <div class="stat-content">
+                    <span>Students Placed</span>
+                    <h2>687</h2>
+                    <p class="positive">
+                        ↑ 18.5% this year
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon orange">
+                    💰
+                </div>
+
+                <div class="stat-content">
+                    <span>Highest Package</span>
+                    <h2>₹42 LPA</h2>
+                    <p class="positive">
+                        ↑ New record
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MAIN GRID -->
+
+        <section class="dashboard-grid">
+
+
+            <!-- ACTIVE PLACEMENT DRIVES -->
+
+            <div class="dashboard-card drives-card">
+
+                <div class="card-header">
+
+                    <div>
+                        <span class="card-label">
+                            OPPORTUNITIES
+                        </span>
+
+                        <h2>Active Placement Drives</h2>
+                    </div>
+
+                    <a href="#">
+                        View All →
+                    </a>
+
+                </div>
+
+
+                <div class="drive-list">
+
+
+                    <!-- DRIVE 1 -->
+
+                    <div class="drive-item">
+
+                        <div class="company-logo microsoft">
+                            M
+                        </div>
+
+                        <div class="drive-info">
+
+                            <h3>Microsoft</h3>
+
+                            <p>
+                                Software Development Engineer
+                            </p>
+
+                            <div class="drive-meta">
+                                <span>📍 Bangalore</span>
+                                <span>💰 ₹24 LPA</span>
+                            </div>
+
+                        </div>
+
+                        <div class="drive-action">
+
+                            <span class="deadline">
+                                5 days left
+                            </span>
+
+                            <button>
+                                Apply
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- DRIVE 2 -->
+
+                    <div class="drive-item">
+
+                        <div class="company-logo amazon">
+                            A
+                        </div>
+
+                        <div class="drive-info">
+
+                            <h3>Amazon</h3>
+
+                            <p>
+                                SDE Intern + Full Time
+                            </p>
+
+                            <div class="drive-meta">
+                                <span>📍 Hyderabad</span>
+                                <span>💰 ₹18 LPA</span>
+                            </div>
+
+                        </div>
+
+                        <div class="drive-action">
+
+                            <span class="deadline">
+                                8 days left
+                            </span>
+
+                            <button>
+                                Apply
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- DRIVE 3 -->
+
+                    <div class="drive-item">
+
+                        <div class="company-logo google">
+                            G
+                        </div>
+
+                        <div class="drive-info">
+
+                            <h3>Google</h3>
+
+                            <p>
+                                Associate Software Engineer
+                            </p>
+
+                            <div class="drive-meta">
+                                <span>📍 Pune</span>
+                                <span>💰 ₹22 LPA</span>
+                            </div>
+
+                        </div>
+
+                        <div class="drive-action">
+
+                            <span class="deadline">
+                                12 days left
+                            </span>
+
+                            <button>
+                                Apply
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- DRIVE 4 -->
+
+                    <div class="drive-item">
+
+                        <div class="company-logo infosys">
+                            I
+                        </div>
+
+                        <div class="drive-info">
+
+                            <h3>Infosys</h3>
+
+                            <p>
+                                Graduate Engineer Trainee
+                            </p>
+
+                            <div class="drive-meta">
+                                <span>📍 Mysore</span>
+                                <span>💰 ₹8 LPA</span>
+                            </div>
+
+                        </div>
+
+                        <div class="drive-action">
+
+                            <span class="deadline">
+                                15 days left
+                            </span>
+
+                            <button>
+                                Apply
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 PLACEMENT PROGRESS
+            ========================== -->
+
+            <div class="dashboard-card progress-card">
+
+                <div class="card-header">
+
+                    <div>
+                        <span class="card-label">
+                            YOUR PROGRESS
+                        </span>
+
+                        <h2>Placement Status</h2>
+                    </div>
+
+                </div>
+
+
+                <div class="progress-circle">
+
+                    <div class="circle-inner">
+
+                        <strong>72%</strong>
+
+                        <span>Profile Ready</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="progress-details">
+
+                    <div class="progress-row">
+
+                        <span>Profile Completion</span>
+
+                        <strong>90%</strong>
+
+                    </div>
+
+                    <div class="progress-bar">
+                        <div style="width:90%"></div>
+                    </div>
+
+
+                    <div class="progress-row">
+
+                        <span>Applications</span>
+
+                        <strong>14 / 20</strong>
+
+                    </div>
+
+                    <div class="progress-bar">
+                        <div style="width:70%"></div>
+                    </div>
+
+
+                    <div class="progress-row">
+
+                        <span>Assessments</span>
+
+                        <strong>8 / 10</strong>
+
+                    </div>
+
+                    <div class="progress-bar">
+                        <div style="width:80%"></div>
+                    </div>
+
+                </div>
+
+
+                <button class="complete-profile-btn">
+                    Complete Profile →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- LOWER GRID -->
+
+        <section class="lower-grid">
+
+
+            <!-- UPCOMING EVENTS -->
+
+            <div class="dashboard-card">
+
+                <div class="card-header">
+
+                    <div>
+                        <span class="card-label">
+                            SCHEDULE
+                        </span>
+
+                        <h2>Upcoming Events</h2>
+                    </div>
+
+                    <a href="#">
+                        View All →
+                    </a>
+
+                </div>
+
+
+                <div class="event-list">
+
+
+                    <div class="event-item">
+
+                        <div class="event-date">
+                            <strong>18</strong>
+                            <span>AUG</span>
+                        </div>
+
+                        <div class="event-info">
+
+                            <h3>Microsoft Pre-Placement Talk</h3>
+
+                            <p>
+                                🕒 10:00 AM &nbsp; • &nbsp;
+                                📍 Seminar Hall
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="event-item">
+
+                        <div class="event-date">
+                            <strong>21</strong>
+                            <span>AUG</span>
+                        </div>
+
+                        <div class="event-info">
+
+                            <h3>Amazon Online Assessment</h3>
+
+                            <p>
+                                🕒 2:00 PM &nbsp; • &nbsp;
+                                💻 Online
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="event-item">
+
+                        <div class="event-date">
+                            <strong>25</strong>
+                            <span>AUG</span>
+                        </div>
+
+                        <div class="event-info">
+
+                            <h3>Resume Building Workshop</h3>
+
+                            <p>
+                                🕒 11:00 AM &nbsp; • &nbsp;
+                                📍 Lab 4
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- TOP RECRUITERS -->
+
+            <div class="dashboard-card">
+
+                <div class="card-header">
+
+                    <div>
+                        <span class="card-label">
+                            RECRUITERS
+                        </span>
+
+                        <h2>Top Recruiters</h2>
+                    </div>
+
+                    <a href="#">
+                        View All →
+                    </a>
+
+                </div>
+
+
+                <div class="recruiter-grid">
+
+                    <div class="recruiter">
+                        <div class="recruiter-logo microsoft">
+                            M
+                        </div>
+                        <strong>Microsoft</strong>
+                        <span>24 LPA</span>
+                    </div>
+
+
+                    <div class="recruiter">
+                        <div class="recruiter-logo amazon">
+                            A
+                        </div>
+                        <strong>Amazon</strong>
+                        <span>18 LPA</span>
+                    </div>
+
+
+                    <div class="recruiter">
+                        <div class="recruiter-logo google">
+                            G
+                        </div>
+                        <strong>Google</strong>
+                        <span>22 LPA</span>
+                    </div>
+
+
+                    <div class="recruiter">
+                        <div class="recruiter-logo infosys">
+                            I
+                        </div>
+                        <strong>Infosys</strong>
+                        <span>8 LPA</span>
+                    </div>
+
+
+                    <div class="recruiter">
+                        <div class="recruiter-logo tcs">
+                            T
+                        </div>
+                        <strong>TCS</strong>
+                        <span>7.5 LPA</span>
+                    </div>
+
+
+                    <div class="recruiter">
+                        <div class="recruiter-logo accenture">
+                            A
+                        </div>
+                        <strong>Accenture</strong>
+                        <span>9 LPA</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!--  PLACEMENT INSIGHT -->
+
+        <section class="dashboard-card placement-insight">
+
+            <div class="card-header">
+
+                <div>
+
+                    <span class="card-label">
+                        PLACEMENT INSIGHTS
+                    </span>
+
+                    <h2>2025–26 Placement Overview</h2>
+
+                </div>
+
+                <select>
+                    <option>2025–26</option>
+                    <option>2024–25</option>
+                    <option>2023–24</option>
+                </select>
+
+            </div>
+
+
+            <div class="insight-grid">
+
+                <div class="insight-box">
+
+                    <span>Total Students</span>
+                    <strong>1,240</strong>
+
+                </div>
+
+
+                <div class="insight-box">
+
+                    <span>Students Placed</span>
+                    <strong>687</strong>
+
+                </div>
+
+
+                <div class="insight-box">
+
+                    <span>Placement Rate</span>
+                    <strong>82.4%</strong>
+
+                </div>
+
+
+                <div class="insight-box">
+
+                    <span>Average Package</span>
+                    <strong>₹7.8 LPA</strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- SIMPLE GRAPH -->
+
+            <div class="chart">
+
+                <div class="chart-y">
+                    <span>100%</span>
+                    <span>75%</span>
+                    <span>50%</span>
+                    <span>25%</span>
+                    <span>0%</span>
+                </div>
+
+                <div class="chart-area">
+
+                    <div class="chart-line">
+
+                        <div class="point p1"></div>
+                        <div class="point p2"></div>
+                        <div class="point p3"></div>
+                        <div class="point p4"></div>
+                        <div class="point p5"></div>
+                        <div class="point p6"></div>
+
+                    </div>
+
+                    <div class="chart-months">
+                        <span>Jan</span>
+                        <span>Feb</span>
+                        <span>Mar</span>
+                        <span>Apr</span>
+                        <span>May</span>
+                        <span>Jun</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+
+        <footer>
+
+            <p>
+                © 2026 PlaceMate Placement Portal
+            </p>
+
+            <div>
+                <a href="#">Privacy</a>
+                <a href="#">Support</a>
+                <a href="#">Contact</a>
+            </div>
+
+        </footer>
+
+    </main>
+
+</body>
+</html>
